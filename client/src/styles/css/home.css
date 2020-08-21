@@ -1,0 +1,100 @@
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 70vh;
+  width: 70vw;
+  background-color: #cfdbd5;
+  color: #242423;
+}
+.home .welcome {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home h1 {
+  font-family: "Permanent Marker", cursive;
+  margin-bottom: 10px;
+}
+.home p {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+}
+.home .gettingStarted {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #333533;
+  color: #cfdbd5;
+  border-radius: 20px;
+  transition: 0.5s;
+  outline: 0;
+}
+.home .gettingStarted:hover {
+  background-color: #f5cb5c;
+  color: #242423;
+  border: 1px solid #333533;
+}
+.home .backgroundHeader {
+  background-color: #f5cb5c;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+.home img {
+  width: 30%;
+  height: 70%;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-85%, -50%);
+}
+.home .login_signup {
+  opacity: 0;
+  margin-left: 100%;
+  transition: 1s;
+  margin-bottom: 27%;
+  z-index: 10;
+  display: flex;
+}
+.home .log-in, .home .sign-up {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #333533;
+  color: #cfdbd5;
+  border-radius: 20px;
+  transition: 0.5s;
+  outline: 0;
+}
+.home .log-in:hover, .home .sign-up:hover {
+  background-color: #f5cb5c;
+  color: #242423;
+  border: 1px solid #333533;
+}
+.home .slide {
+  opacity: 1;
+  margin-left: 0;
+}
+.home a {
+  text-decoration: none;
+  color: #cfdbd5;
+  height: 100%;
+  width: 100%;
+}
+.home a:hover {
+  color: #242423;
+}
