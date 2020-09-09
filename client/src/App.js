@@ -1,7 +1,7 @@
 import React, {Suspense, lazy} from 'react';
 import './App.css';
 import axios from 'axios'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {allData} from './action/action';
 
