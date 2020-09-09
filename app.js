@@ -17,7 +17,7 @@ require('./setup/passport')(passport);
 app.use(session({
     secret : 'cat',
     resave : true,
-    saveUninitialized : true
+    saveUninitialized : true,
 }));
 
 app.use(passport.initialize());
